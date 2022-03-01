@@ -3,5 +3,26 @@ ul {
 }
 
 .mt-n2 {
-  margin-right: 25rem;
+  margin-left: 10rem;
+}
+
+.text {
+  color: #222222;
+  font: normal normal bold 50px/90px SF Pro Display;
+}
+
+.gap-2 {
+  gap: 5rem;
+}
+
+.btn-colore {
+  background-color: #146cda;
+  color: #f7f7f7;
+  font-size: 1rem;
+}
+
+.bg-colore {
+  background-color: #e1fff1;
+  color: #146cda;
+  font-size: 0.9rem;
 }

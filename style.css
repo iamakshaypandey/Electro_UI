@@ -30,3 +30,8 @@ ul {
 .ml {
   margin-left: 20rem;
 }
+
+.line {
+  background-color: #146cda;
+  width: 100%;
+}

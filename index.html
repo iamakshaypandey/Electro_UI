@@ -19,15 +19,15 @@
 
     <title>Electro</title>
   </head>
-  <body class=" overflow: hidden; ">
-    <div class="navbar-sticky overflow-hidden navbar-expand-lg">
-      <nav class="navbar sticky-top navbar-light bg-light">
+  <body class="">
+    <div class=" overflow-hidden container-fluid">
+      <nav class="navbar-main fixed-top navbar-light bg-light">
         <div class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid row">
             <div class="navbar-brand col-lg-2">
               <img class="" src="img/icon.svg" width="130" alt="icon" />
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
               <img src="img/headerimg/location.png" width="20" alt="" />
               <span
                 >56,Streat Road Bangalore...
@@ -37,7 +37,7 @@
                 />
               </span>
             </div>
-            <div class="input-group col-lg-8">
+            <div class="input-group col-lg-4">
               <input
                 class="form-control border-light rounded-end pe-5"
                 type="text"
@@ -46,7 +46,7 @@
               <img src="img/headerimg/Group 50801.svg" width="40" alt="icon" />
             </div>
 
-            <div class="navbar-toolbar col-sm-6">
+            <div class="navbar-toolbar col-lg-4">
               <button
                 class="navbar-toggler collapsed"
                 type="button"
@@ -56,7 +56,8 @@
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <ul class="nav justify-content-end">
+              <div class="container justify-content-end">
+              <ul class="nav ">
                 <li class="nav-item">
                   <a class="navbar-tool d-none d-lg-flex" href="#">
                     <img src="img/headerimg/heart.jpg" width="25" alt="heart" />
@@ -78,14 +79,15 @@
                 </li>
               </ul>
             </div>
+            </div>
           </div>
         </div>
+        <div class="container-fluid">
         <div
-          class="navbar navbar-expand-lg navbar-light navbar-stuck-menu mt-n2 pt-0 pb-2"
+          class="navbar navbar-expand-lg navbar-light navbar-stuck-menu pt-0 pb-2"
         >
-          <div class="container">
             <div class="navbar-collapse collapse" id="navbarCollapse">
-              <ul class="navbar-nav align-items-center">
+              <ul class="navbar-nav justify-content-between align-items-center">
                 <li class="nav-item active">
                   <a href="#" class="nav-link dropdown-toggle"
                     >Mobile
@@ -267,7 +269,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <!-- <div class="container-fluid"> -->
         <h2 class="text-center text pt-4 pt-sm-3">Exclusive Products</h2>
         <div class="text-center position">
           <ul
@@ -305,7 +307,8 @@
         </div>
       </div>
       <div class="container">
-        <div class="row pt-2 mx-n2">
+        <div class="row pt-2 mx-n2 ">
+          
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-grid-gutter">
             <div class="card product-card-alt">
@@ -675,7 +678,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid content-space-2 content-space-b-lg-3">
           <img
             src="img/secoundimg/girl.png"
             width=""
@@ -684,6 +687,22 @@
           />
         </div>
         <div class="row pt-2 mx-n2">
+          <div class="container mb-4 d-flex justify-content-between">
+            <h1 class="font-weight-bold">Best Sellers</h1>
+            <button
+            type="button"
+            style="
+              background-color: #000000;
+              color: #f7f7f7;
+              height: 2.5rem;
+              width: 9%;
+              border-radius: 3rem !important;
+            "
+            class="btn rounded-pill"
+          >
+            View All
+          </button>
+          </div>
           <!-- Product-->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-grid-gutter">
             <div class="card product-card-alt">
@@ -1053,7 +1072,7 @@
             </div>
           </div>
         </div>
-        <div class="container py-4 my-lg-3 py-sm-5">
+        <div class="container py-4 my-lg-3 py-sm-5 ">
           <div class="row">
             <div class="col-md-4 col-sm-6 mb-grid-gutter">
               <a class="card border-0 shadow" href="food-delivery-category.html"
@@ -1079,8 +1098,24 @@
             </div>
           </div>
         </div>
-        <div class="row pt-2 mx-n2">
-          <!-- Product-->
+        <div class="row pt-2 mx-n2 content-space-2">
+          <div class="container mb-4 d-flex justify-content-between">
+            <h1 class="font-weight-bold">Most Purchased</h1>
+            <button
+            type="button"
+            style="
+              background-color: #000000;
+              color: #f7f7f7;
+              height: 2.5rem;
+              width: 9%;
+              border-radius: 3rem !important;
+            "
+            class="btn rounded-pill"
+          >
+            View All
+          </button>
+          </div>
+          <!-- Product -->
           <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-grid-gutter">
             <div class="card product-card-alt">
               <div class="product-thumb">
@@ -1449,69 +1484,72 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="container content-space-2">
-          <h1>Top Brands</h1>
-          <div class="row">
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="img/bottoumimg/image.png"
-                alt="Logo"
-              />
+        <section class="d-flex justify-content-center">
+        <div class="content-space-2  ">   
+          <h1 class="font-weight-bold mb-4 pb-4">Top Brands</h1>
+          <div class="container-fluid w-100">
+          <div class="row " style="background-color: #00000029;">
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="img/bottoumimg/image.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
+  
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="img/bottoumimg/Logo-Samsung.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
+  
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="img/bottoumimg/Dell_Logo.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
+  
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="/img/bottoumimg/4d9775ff4f14c1b4f4715b82726080d9.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
+  
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="img/bottoumimg/download.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
+  
+              <div class="col text-center py-3">
+                <img
+                  class="avatar w-100 avatar-lg avatar-4x3"
+                  src="img/bottoumimg/1024px-Lenovo_logo_2015.svg.png"
+                  alt="Logo"
+                />
+              </div>
+              <!-- End Col -->
             </div>
-            <!-- End Col -->
-
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="img/bottoumimg/Logo-Samsung.png"
-                alt="Logo"
-              />
-            </div>
-            <!-- End Col -->
-
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="img/bottoumimg/Dell_Logo.png"
-                alt="Logo"
-              />
-            </div>
-            <!-- End Col -->
-
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="/img/bottoumimg/4d9775ff4f14c1b4f4715b82726080d9.png"
-                alt="Logo"
-              />
-            </div>
-            <!-- End Col -->
-
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="img/bottoumimg/download.png"
-                alt="Logo"
-              />
-            </div>
-            <!-- End Col -->
-
-            <div class="col text-center py-3">
-              <img
-                class="avatar avatar-lg avatar-4x3"
-                src="img/bottoumimg/1024px-Lenovo_logo_2015.svg.png"
-                alt="Logo"
-              />
-            </div>
-            <!-- End Col -->
+            <!-- End Row -->
           </div>
-          <!-- End Row -->
         </div>
+      </section>
       </div>
-      <div class="container content-space-2 content-space-lg-3">
+      <div class="container content-space-2">
+
         <!-- Heading -->
         <div
           class="w-md-75 d-flex justify-content-between w-lg-50 mx-md-auto mb-5"

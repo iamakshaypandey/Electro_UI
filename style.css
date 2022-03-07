@@ -172,3 +172,37 @@ ul {
 .list-py-1 {
   line-gap: 1rem;
 }
+
+.rounded-pill {
+  border-radius: 2rem;
+}
+
+.top-link-icon {
+  position: relative;
+}
+
+.top-2 {
+  position: absolute;
+  right: 65%;
+  background-color: #146cda;
+  border-radius: 6rem;
+  width: 0.9rem;
+  font-size: 0.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.top-link-icon-3 {
+  position: relative;
+}
+
+.top-3 {
+  position: absolute;
+  right: 15%;
+  background-color: #146cda;
+  border-radius: 6rem;
+  width: 0.9rem;
+  font-size: 0.5rem;
+  color: #fff;
+  text-align: center;
+}

@@ -154,3 +154,9 @@ ul {
   width: 38%;
   padding: 0.1rem;
 }
+
+.box-col {
+  background: #fff;
+  border-radius: 0;
+  border: #fff;
+}

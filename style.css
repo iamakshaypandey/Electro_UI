@@ -1,5 +1,5 @@
 ul {
-  gap: 1rem;
+  gap: 2.2rem;
 }
 
 .mt-n2 {
@@ -47,7 +47,7 @@ ul {
 /* ************************************************************ */
 
 .fixed-top {
-  padding: 20px 0 20px 8px;
+  padding: 20px 0 12px 20px;
 }
 
 .fixed-top .navbar-nav li a {
@@ -63,9 +63,9 @@ ul {
 .main-bar {
   position: absolute;
   width: 100%;
-  top: 9%;
+  top: 8%;
   position: fixed;
-  z-index: 1;
+  z-index: 6;
 }
 
 .main-bar .navbar-nav {
@@ -166,7 +166,11 @@ ul {
 }
 
 .rights-ml {
-  margin-right: 5rem;
+  margin-right: 10rem;
+}
+
+.rights-mr-top {
+  margin-right: 10rem;
 }
 
 .list-py-1 {
@@ -184,6 +188,7 @@ ul {
 }
 
 .top-2 {
+  display: inline-block;
   position: absolute;
   right: 65%;
   background-color: #146cda;
@@ -199,12 +204,33 @@ ul {
 }
 
 .top-3 {
+  display: inline-block;
   position: absolute;
-  right: 15%;
+  right: 65%;
   background-color: #146cda;
   border-radius: 6rem;
   width: 0.9rem;
   font-size: 0.5rem;
   color: #fff;
   text-align: center;
+}
+
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+body .carousel-indicators li {
+  background-color: red;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: #e5e5e5;
+}
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
 }

@@ -27,6 +27,9 @@ ul {
   font-size: 0.9rem;
 }
 
+.bg-white {
+  background-color: #fff !important;
+}
 .ml {
   margin-left: 20rem;
 }
@@ -47,6 +50,7 @@ ul {
 /* ************************************************************ */
 
 .fixed-top {
+  top: 0;
   padding: 20px 0 12px 20px;
 }
 
@@ -100,21 +104,23 @@ ul {
 
 .slide-btn-left {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 0;
   width: 2rem;
   height: 5rem;
   background-color: #e1fff1;
+  color: #bbbbbb;
   border-bottom-right-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
 }
 .slide-btn-right {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 0;
   width: 2rem;
   height: 5rem;
   background-color: #e1fff1;
+  color: #bbbbbb;
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
 }
@@ -143,7 +149,8 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 60vh;
+  width: 100%;
 }
 
 /* ***************************************************************** */
@@ -151,8 +158,11 @@ ul {
 .v1 {
   background: linear-gradient(#146cda 30%, #e5e5e5 100%) no-repeat;
   background-size: 22% 20px;
-  width: 38%;
+  /* width: 38% !important; */
   padding: 0.1rem;
+}
+.position-absolute {
+  left: 30% !important;
 }
 
 .box-col {
@@ -233,4 +243,8 @@ body .carousel-control-next-icon {
 body .no-padding {
   padding-left: 0;
   padding-right: 0;
+}
+
+.mx-top {
+  margin-top: 12rem;
 }

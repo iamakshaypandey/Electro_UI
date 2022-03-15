@@ -8,7 +8,45 @@ ul {
 
 .text {
   color: #222222;
-  font: normal normal bold 50px/90px SF Pro Display;
+  font: normal normal bold;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.v2 {
+  position: relative;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #a0a0a0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.v2:after {
+  content: "";
+  position: absolute;
+  background-color: #146cda;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+}
+.v2:before {
+  content: "";
+  position: absolute;
+  background-color: #00000012;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+.v2:hover {
+  color: #146cda !important;
+}
+
+.v2:hover:after {
+  width: 100%;
 }
 
 .gap-2 {
@@ -139,8 +177,13 @@ ul {
   border-radius: 3rem !important;
 }
 .text2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
+  font: normal bold;
+}
+
+.dark-col {
+  color: #000000;
 }
 
 .jumbotron {

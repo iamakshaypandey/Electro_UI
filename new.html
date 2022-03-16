@@ -15,11 +15,226 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>akshay</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
-    <!-- <nav class="nav-bar"></nav> -->
+    <header>
+      <nav class="navbar fixed-top bg-light navbar-expand-lg navbar-light pb-2">
+        <div class="container-fluid row">
+          <div class="navbar-brand pb-2 col-lg-2">
+            <img class="" src="img/icon.svg" width="130" alt="icon" />
+          </div>
+          <div class="col-lg-2 pb-2 pt-2">
+            <img src="img/headerimg/location.png" width="20" alt="" />
+            <span
+              >56,Streat Road Bangalore...
+              <img
+                src="img/headerimg/arrow-point-to-right.svg"
+                alt="arrowicon"
+              />
+            </span>
+          </div>
+          <div class="input-group pb-2 pt-2 col-lg-4 col-7">
+            <input
+              class="form-control border-light rounded-end pe-5"
+              type="text"
+              placeholder="Search for products"
+            />
+            <img src="img/headerimg/Group 50801.svg" width="40" alt="icon" />
+          </div>
+
+          <div
+            class="navbar-toolbar pb-2 pt-2 d-flex justify-content-start col-lg-4"
+          >
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav d-flex flex-row ml-4 justify-content-end">
+              <li class="nav-item position-relative mx-auto">
+                <a class="navbar-tool nav-link" href="#">
+                  <div class="top-link-icon row">
+                    <img
+                      src="img/headerimg/heart.jpg "
+                      class=""
+                      width="25"
+                      alt="heart"
+                    />
+                    <div class="col-0">
+                      <span class="top-2 bg-primary">2</span>
+                    </div>
+                    Wishlist
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item position-relative mx-auto">
+                <a class="navbar-tool nav-link" href="#">
+                  <div class="row top-link-icon-3">
+                    <img src="img/headerimg/peson.png" width="30" alt="heart" />
+                    My Account
+                    <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item position-relative mx-auto">
+                <a class="navbar-tool nav-link" href="#">
+                  <div class="row top-link-icon-3">
+                    <img
+                      src="img/headerimg/trali.jpg"
+                      class=""
+                      width="30"
+                      alt="heart"
+                    />
+                    <div class="col-0">
+                      <span class="top-3">2</span>
+                    </div>
+                    My Cart
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- secound nav-bar -->
+    <nav class="navbar fixed-top navbar-expand-lg main-bar bg-light pt-5">
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml row">
+          <li class="nav-item link1 active">
+            <a href="#" class="nav-link"
+              >Mobile
+              <span
+                ><img
+                  src="img/headerimg/arrow-point-to-right.svg"
+                  alt="" /></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Television
+              <span
+                ><img src="img/headerimg/arrow-point-to-right.svg" alt=""
+              /></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Camera
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Watch
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Earphone
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              kitchen Appliances
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Speakers
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Bluetooth
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Lighting
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              projectors
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              VR/AR Devices
+              <span>
+                <img src="img/headerimg/arrow-point-to-right.svg" alt="" />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron px-4 jumbotron-fluid mx-top">
+      <div class="container-fluid">
+        <div class="text-head">
+          <h3 class="text1 text-white" style="font-size: 2.5rem">
+            The New Sound
+          </h3>
+          <h1 class="text2 text-uppercase font-weight-bold text-white">
+            Exprience
+          </h1>
+          <h1 class="text2 dark-col font-weight-bold">40 % Off</h1>
+          <button
+            type="button"
+            class="btn rounded-pill order-btn text-uppercase font-weight-bold"
+          >
+            Order Now
+          </button>
+        </div>
+        <ion-icon
+          name="chevron-back-outline"
+          class="slide-btn-left img-fluid"
+        ></ion-icon>
+        <ion-icon
+          name="chevron-forward-outline"
+          class="slide-btn-right img-fluid"
+        ></ion-icon>
+      </div>
+    </div>
+    <section class="container-fluid"></section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
